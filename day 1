@@ -1,0 +1,25 @@
+1)Write a blog on Difference between HTTP1.1 vs HTTP2?
+ HTTP protocol was developed in 1989 as the common language that enables client and server machines’ interaction. Process steps are as enlisted:
+The client (browser) has to send a request to the server using the method (GET/POST).
+Server responds with the requested resource, for example – image, alongside the status of what it did to the client’s request.
+HTTP/1.1 addresses this problem by creating a persistent connection between server and client. Until explicitly closed, this connection will remain open. So, the client can use one TCP connection throughout the communication sans interrupting it again and again.
+HTTP/2 developers introduced a binary framing layer. This layer partitions requests and responses in tiny data packets and encodes them. Due to this, multiple requests and responses become able to run parallelly with HTTP/2 and chances of HOL blocking are bleak.
+
+2)Write a blog about objects and its internal representation in Javascript?
+Objects are important data types in javascript. Objects are different than primitive datatypes (i.e. number, string, boolean, etc.). Primitive data types contain one value but Objects can hold many values in form of Key: value pair. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+Every object has some property associated with some value. These values can be accessed using these properties associated with them.
+Examples
+ var myCar = new Object();
+ myCar.make = 'Suzuki';
+ myCar.model = 'Altros';
+ myCar.year = 1978;
+ myCar.wheels = 2;
+
+3)Read about IP address, port, HTTP methods, MAC address
+
+IP Address
+An IP address is a unique numerical label assigned to each device connected to a computer network, such as the internet. It acts as a virtual address that allows devices to communicate and identify each other on the network. There are two main versions of IP addresses:
+Port
+A port is a virtual communication channel associated with an IP address. It allows different applications or services running on the same device to receive and send data independently. Imagine an IP address as a building with multiple doors (ports), each leading to a specific apartment (application or service).
+HTTP Methods
+HTTP methods are specific commands sent within an HTTP request to instruct the server on how to handle the request. These methods define the desired action on the server-side, such as retrieving data, creating new resources, or updating existing ones. Some common HTTP methods include:
